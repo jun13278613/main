@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <button type="button" onclick="tmp1()">엘리먼트 만들기</button>
+    </div>
+    <h3 id="text"></h3>
+    <script>
+        let box = document.getElementById("box");
+        function tmp1(){
+            box.innerHTML+=
+            `<button type="button" onclick="tmp2()" id="btn">생성된 버튼</button>`
+        }
+
+        // 첫화면 시점에 존재하지 않는 엘리먼트에는  img.addEventListener("mouseover",()=>{ 이런 방식이 안됨
+        //이를 동적 엘리먼트라 함
+
+        //동적으로 생성된 엘리먼트에 이벤트 부여
+        //문서 전체에 리스너를 장착 엘리먼트를 선택
+        document.addEventListener('click',(e)=>{
+            console.log(e.target.id);// 내가 화면에서 선택한 태그에 id
+            if(e.target.id == "btn"){
+                text.innerHTML+=`생성된 버튼을 클릭함!!`
+            }
+        })
+
+        let text =document.getElementById('text');
+        function tmp2(){
+            text.innerHTML+=
+            `생성된 버튼을 클릭함?`
+        }
+    </script>
+</body>
+</html>

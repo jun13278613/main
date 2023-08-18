@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        body{
+            background-color: rgb(32, 155, 128);
+        }
+        #icon{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            
+        }
+        .material-symbols-outlined{
+        font-size: 100px;
+        color: aliceblue;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="icon">
+        <span class="material-symbols-outlined">
+            rocket_launch
+            </span>
+    </div>
+</body>
+<script>
+    document.addEventListener("keypress",(k)=>{
+        console.log(k);
+    })
+    let ico = document.getElementById("icon");
+    document.addEventListener("mousemove",(e)=>{
+        console.log(e)
+        ico.style.left= e.pageX+'px';
+        ico.style.top= e.pageY+'px';
+    })
+    document.addEventListener("click",(m)=>{
+        console.log(m)
+    })
+
+</script>
+</html>
