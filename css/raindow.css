@@ -1,0 +1,135 @@
+@keyframes back {
+    0%{
+        background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    }
+    12.5%{
+        background: linear-gradient(rgba(0,0,0,0.5),rgba(255, 0, 0, 0.5));
+    }
+    25%{
+        background: linear-gradient(rgba(255, 0, 0, 0.5),rgba(255, 100, 0, 0.5));
+    }
+    37.5%{
+        background: linear-gradient(rgba(255, 100, 0, 0.5),rgba(255, 255, 0, 0.5));
+    }
+    50%{
+        background: linear-gradient(rgba(255, 255, 0, 0.5),rgba(0, 128, 0, 0.5));
+    }
+    62.5%{
+        background: linear-gradient(rgba(0, 128, 0, 0.5),rgba(0, 0, 255, 0.5));
+    }
+    75%{
+        background: linear-gradient(rgba(0, 0, 255, 0.5),rgba(0, 0, 139, 0.5));
+    }
+    87.5%{
+        background: linear-gradient(rgba(0, 0, 139, 0.5),rgba(162, 0, 255, 0.5));
+    }
+    100%{
+        background: linear-gradient(rgba(162, 0, 255, 0.5),rgba(0,0,0,0.5));
+    }
+}
+@keyframes col {
+    0%{
+        color:rgba(0,0,0);
+    }
+    12.5%{
+        color:rgba(255, 0, 0);
+    }
+    25%{
+        color:rgba(255, 100, 0);
+    }
+    37.5%{
+        color:rgba(255, 255, 0);
+    }
+    50%{
+        color:rgba(0, 128, 0);
+    }
+    62.5%{
+        color:rgba(0, 0, 255);
+    }
+    75%{
+        color:rgba(0, 0, 139);
+    }
+    87.5%{
+        color:rgba(162, 0, 255);
+    }
+    100%{
+        color:rgba(0,0,0);
+    }
+}
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes shadow {
+    0%{
+        text-shadow: 0px 0px 10px rgba(0,0,0);
+    }
+    12.5%{
+        text-shadow: 0px 0px 10px rgba(255, 0, 0);
+    }
+    25%{
+        text-shadow: 0px 0px 10px rgba(255, 100, 0);
+    }
+    37.5%{
+        text-shadow: 0px 0px 10px rgba(255, 255, 0);
+    }
+    50%{
+        text-shadow: 0px 0px 10px rgba(0, 128, 0);
+    }
+    62.5%{
+        text-shadow: 0px 0px 10px rgba(0, 0, 255);
+    }
+    75%{
+        text-shadow: 0px 0px 10px rgba(0, 0, 139);
+    }
+    87.5%{
+        text-shadow: 0px 0px 10px rgba(162, 0, 255);
+    }
+    100%{
+        text-shadow: 0px 0px 10px rgba(0,0,0);
+    }
+}
+@keyframes tmp {
+    0%{
+        color:rgba(0,0,0 ,0.2);
+        text-shadow: 0px 0px 10px rgba(0,0,0);
+    }
+    12.5%{
+        color:rgba(255, 0, 0 ,0.2);
+        text-shadow: 0px 0px 10px rgba(255, 0, 0);
+    }
+    25%{
+        color:rgba(255, 100, 0 ,0.2);
+        text-shadow: 0px 0px 10px rgba(255, 100, 0);
+    }
+    37.5%{
+        color:rgba(255, 255, 0 ,0.2);
+        text-shadow: 0px 0px 10px rgba(255, 255, 0);
+    }
+    50%{
+        color:rgba(0, 128, 0 ,0.2);
+        text-shadow: 0px 0px 10px rgba(0, 128, 0);
+    }
+    62.5%{
+        color:rgba(0, 0, 255 ,0.2);
+        text-shadow: 0px 0px 10px rgba(0, 0, 255);
+    }
+    75%{
+        color:rgba(0, 0, 139 ,0.2);
+        text-shadow: 0px 0px 10px rgba(0, 0, 139);
+    }
+    87.5%{
+        color:rgba(162, 0, 255 ,0.2);
+        text-shadow: 0px 0px 10px rgba(162, 0, 255);
+    }
+    100%{
+        color:rgba(0,0,0 ,0.2);
+        text-shadow: 0px 0px 10px rgba(0,0,0);
+    }
+    
+}
+
