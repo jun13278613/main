@@ -1,0 +1,99 @@
+a {
+    text-decoration: none;
+}
+#mamam{
+    position: relative;
+    height: 800px;
+}
+input {
+    border-style:none;
+    border-bottom:solid 1px #cacaca;
+    border-collapse:collapse;
+    outline : none;
+}
+
+.login-1 {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 20px; 
+}
+
+.bbb {
+    margin-bottom: 50px
+}
+
+#btn {
+    width: 500px;
+    height: 65px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    margin-top: 40px;
+}
+
+#btn:hover {
+    background-color: #81d8d0;
+    color: black;
+    cursor: pointer;
+}
+
+.btn-text-1:hover {
+    background-color: #81d8d0;
+    color: #81d8d0;
+}
+
+#name-1 {
+    width: 500px;
+    margin-bottom: 50px
+}
+#password-1{
+    width: 500px;
+}
+.link-1
+{
+    margin-bottom: 25px;
+
+}
+#link-2 {
+    color: black;
+}
+
+#link-2:hover {
+    color : #81d8d0;
+    text-decoration: none;
+}
+
+.login-2 { 
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 20px; 
+}
+
+#right-1 > p {
+    font-size: 50px;
+}
+  
+.login-3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #81d8d0;
+    width: 0.1px;
+    height: 50%;
+}
+@font-face {
+    font-family: Kopub Batang Medium;
+    src: url(../project3/KoPub\ Batang\ Medium.ttf);
+}
+*
+{
+    font-family: Kopub Batang Medium;
+ 
+}

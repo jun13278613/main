@@ -1,0 +1,75 @@
+.imm {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+#mamam{
+    position: relative;
+    height: 800px;
+}
+input {
+    border-style: none;
+    border-bottom: solid 1px #cacaca;
+    border-collapse: collapse;
+    outline: none;
+}
+
+.pass {
+    /* 화면의 정중앙에 위치하기 위한 공식 */
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 20px;
+    /* 상자안 아이디 비번 중앙 */
+}
+
+.pass p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.image-1 {
+    /* 화면의 정중앙에 위치하기 위한 공식 */
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 20px;
+    /* 상자안 아이디 비번 중앙 */
+}
+
+#btn {
+    width: 500px;
+    height: 65px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+
+#btn:hover {
+    background-color: #81d8d0;
+    color: black;
+    cursor: pointer;
+}
+
+.btn-text-1:hover {
+    background-color: #81d8d0;
+    color: #81d8d0;
+}
+
+.error-text {
+    color: red;
+    margin-bottom: 25px;
+}
+@font-face {
+    font-family: KoPub Batang Medium;
+    src: url(../project3/KoPub\ Batang\ Medium.ttf);
+}
+
+* {
+    font-family: KoPub Batang Medium;
+}

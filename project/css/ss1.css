@@ -1,0 +1,127 @@
+
+@font-face {
+    font-family: KoPub Batang Medium;
+    src: url(../project3/KoPub\ Batang\ Medium.ttf);
+}
+
+* {
+    font-family: KoPub Batang Medium;
+}
+
+*{
+    box-sizing: border-box;
+}
+#bo{
+    height: 3750px;
+}
+#bo h1{
+    margin-bottom: 20px;
+}
+.img>a{
+    font-size: 20px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    
+}
+#tmp{
+    font-size: 16px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.container{
+    justify-content: center;
+    align-items: baseline;
+    display: flex;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.allfilter{
+    width: 1800px;
+    margin: 0 auto;
+}
+
+.img>img{
+    width: 255px;
+    height: 255px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.leftfilter{
+    float: left;
+    margin-left: 120px;
+}
+.allfilter>.leftfilter>ul>li{
+    list-style: none;
+    display: inline;
+    margin-right: 40px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.allfilter>.rightfilter>ul>li{
+    list-style: none;
+    display: inline;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.rightfilter{
+    float: right;
+    margin-right: 20px;
+}
+.outer{
+    padding: 50px;
+    height: 3000px;
+    width: 1400px;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+    grid-gap: 30px 30px;
+    justify-content: center;
+    
+}
+.necklace>img{
+    width: 350px;
+    height: 350px;
+}
+#nlace01{
+    grid-row: 4 / 6 ;
+    grid-column:  1 / 3;
+    background-image: url(../image/사람목걸이1);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+.outer>a>.necklace>div{
+    width: 349px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+    position: absolute;
+    /* border: 1px solid black; */
+    border-top: none;
+}
+.outer>a>.necklace>div>p{
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+}
+
+#pic:hover{
+    border: 1px solid black;
+    /* border-bottom: none; */
+}
+
+.outer>.necklace>div>p{
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+.outer>a>.necklace>div>p{
+    margin-top: 80px;
+}

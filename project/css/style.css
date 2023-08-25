@@ -1,0 +1,179 @@
+@font-face {
+    font-family: KoPub Batang Medium;
+    src: url(../project3/KoPub\ Batang\ Medium.ttf);
+}
+*{
+    font-family: KoPub Batang Medium;
+}
+.menu{
+    margin: 0 75px
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+    margin-bottom: 10px;
+    margin-right: 150px;
+    text-align: left;
+}
+li:hover{
+text-decoration: underline;
+text-decoration-color: #81d8d0;
+cursor: pointer;
+}
+header{
+    text-align: center;
+}
+.lef{
+    float: left;
+}
+.rig{
+    float: right;
+}
+header div {
+    margin: 20px;
+}
+header div *{
+    display: inline-block;
+}
+#open{
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    background-color: white;
+    z-index: 10;
+}
+.toBold{
+    font-weight: 800;
+}
+header div ul li{
+    display: block;
+    font-size: 15px;
+}
+header div ul li a:hover{
+    text-decoration: underline;
+    text-decoration-color: #81d8d0;
+}
+.toBold:hover{
+    text-decoration: none;
+}
+#sechbox{
+    position: absolute;
+    top: 85px;
+    margin: 0;
+    z-index: 10;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+#sechbox input{
+    position: absolute;
+    left: 0;
+    top: 20px;
+    font-size: 30px;
+    width: 100%;
+    outline: none;
+    padding-left: 5px;
+}
+#loginbox{
+    z-index: 10;
+    height: 100vh;
+    width: 30%;
+    position: absolute;
+    right: 0;
+    top: 8px;
+    margin: 0;
+    background-color: white
+}
+#loginbox h1{
+    margin-bottom: 30px;
+}
+#loginbox div{
+    margin-top: 100px;
+}
+#loginbox p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#loginbox a{
+    margin-bottom: 30px;
+}
+
+/* footer 시작 */
+.line{
+    border: 4px solid #81d8d0;
+    margin-bottom: 30px;
+    width: 100%;
+}
+footer{
+    height: 230px;
+    text-align: left;
+    margin-bottom: 100px;
+    
+    
+    position: relative;
+}
+#leff{
+    margin-left: 50px;
+}
+#foot1 div div{
+    float: left;
+    
+}
+footer li {
+    margin-top: 20px; 
+    margin-right: 150px;
+    font-size: 14px;
+}
+footer li:hover {
+    text-decoration: underline;
+    text-decoration-color: #81d8d0;
+}
+#fotrig{
+    width: 300px;
+    float: right;
+    margin-right: 50px;
+}
+#fotrig p{
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 40px; 
+    font-size: 14px;
+}
+#inputEmail{
+    font-size: 15px;
+    /* border: none; */
+    height: 25px;
+    width: 280px;
+    padding-left: 5px;
+    outline: none;
+    border:0 solid black;
+    border-bottom: 1px solid black;
+}
+#inputEmailbtn{
+    margin: 10px;
+    margin-left: 0;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 150px;
+    height: 35px;
+    line-height: 35px;
+    background-color: white;
+    font-size: 15px;
+    border: 1px solid black;
+    font-weight: bold;
+    cursor: pointer;
+}
+#icons *{
+    font-size: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#tnco{
+    position: absolute;
+    bottom: -70px; 
+    width: 100%;
+    text-align: center; 
+}
